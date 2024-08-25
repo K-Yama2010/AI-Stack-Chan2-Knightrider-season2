@@ -1,7 +1,7 @@
 # AI-ｽﾀｯｸﾁｬﾝ２　ナイトライダー　シーズン２
 <br>
-robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。<br>
-M5Stack core2 とcore2AWSにて動作します。<br>
+robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、<br>
+機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Stack core2 とcore2AWSにて動作します。<br>
 <br>
 <br>
 〇　特長<br>
@@ -35,13 +35,13 @@ M5Stack core2 とcore2AWSにて動作します。<br>
   　 　  (xxxx.xxxx.xxxx.xxxxはAIスタックチャン２の起動時に表示されるIPアドレスです。)<br>
   　 　  テキストエリアに何も入力せずに送信すると、以前に設定されたロールが削除されます。<br>
 <br>
-  　 　  ロール情報は自動的にspiffsに保存されます。<br>
-<br>
-  　 　  ブラウザで"http://xxxx.xxxx.xxxx.xxxx/role_get"　にアクセスすると、現在設定しているロールを取得できます。<br>
+  　 　  また、"http://xxxx.xxxx.xxxx.xxxx/role_get"　にアクセスすると、現在設定しているロールを取得できます。<br>
 <br>
 　　　　　同様にボリュームを変更するときは"http://xxxx.xxxx.xxxx.xxxx/setting?volume=200"　の200の数値を0～255で調整してください。<br>
     <br>
 　　　　　話者を変更するときも"http://xxxx.xxxx.xxxx.xxxx/setting?speaker=3"　の3の数値を変えてください。<br>
+
+　　　
 <br>
 　　　　VoiceVox話者番号一覧<br>
 　　　　0:四国めたん（あまあま）<br>
@@ -120,6 +120,20 @@ M5Stack core2 とcore2AWSにて動作します。<br>
      各都市・地方のIDは、　https://weather.tsukumijima.net/primary_area.xml 　で調べてください。<br>
      <br>
      <br>
+
+〇AIスタックチャンの操作方法<br>
+<br>
+・ｽﾀｯｸﾁｬﾝの額付近にタッチするとマイクからの録音が始まり音声認識で会話できるようになります。録音時間は５秒程度です。<br>
+<br>
+・ｽﾀｯｸﾁｬﾝの左端中央付近にタッチすると、独り言モードをON/OFFできます。<br>
+<br>
+・ｽﾀｯｸﾁｬﾝの画面中央付近にタッチすると首振り（サーボの動き）をON/OFFできます。<br>
+<br>
+・ｽﾀｯｸﾁｬﾝの右端中央付近にタッチすると、バッテリー残量を教えてくれます。<br>
+<br>
+<br>  
+<br>
+<br>
 〇　注意事項<br>
     <br>
 ・スマホアプリの「ｽﾀｯｸﾁｬﾝconnect」には対応しておりません。会話時はｽﾀｯｸﾁｬﾝと直接してください。音量、性格（ロール）設定等もPCにて行ってください。<br>
