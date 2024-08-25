@@ -1,7 +1,6 @@
 # AI-ｽﾀｯｸﾁｬﾝ２　ナイトライダー　シーズン２
 <br>
-robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、<br>
-機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Stack core2 とcore2AWSにて動作します。<br>
+robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Stack core2 とcore2AWSにて動作します。<br>
 <br>
 <br>
 〇　特長<br>
@@ -31,15 +30,15 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
 <br>
 ・ｽﾀｯｸﾁｬﾝの性格（ロール設定）や音量（ボリューム）、音声（話者）を変更するときはPCにて行います。<br>
  <br>
-　　     ブラウザで"http://xxxx.xxxx.xxxx.xxxx/role"　にアクセスすると、ロールを設定できます。<br>
-  　 　  (xxxx.xxxx.xxxx.xxxxはAIスタックチャン２の起動時に表示されるIPアドレスです。)<br>
-  　 　  テキストエリアに何も入力せずに送信すると、以前に設定されたロールが削除されます。<br>
+ブラウザで"http://xxxx.xxxx.xxxx.xxxx/role"　にアクセスすると、ロールを設定できます。<br>
+(xxxx.xxxx.xxxx.xxxxはAIスタックチャン２の起動時に表示されるIPアドレスです。)<br>
+テキストエリアに何も入力せずに送信すると、以前に設定されたロールが削除されます。<br>
 <br>
-  　 　  また、"http://xxxx.xxxx.xxxx.xxxx/role_get"　にアクセスすると、現在設定しているロールを取得できます。<br>
+また、"http://xxxx.xxxx.xxxx.xxxx/role_get"　にアクセスすると、現在設定しているロールを取得できます。<br>
 <br>
-  　 　  同様にボリュームを変更するときは"http://xxxx.xxxx.xxxx.xxxx/setting?volume=200"　の200の数値を0～255で調整してください。<br>
+同様にボリュームを変更するときは"http://xxxx.xxxx.xxxx.xxxx/setting?volume=200"　の200の数値を0～255で調整してください。<br>
     <br>
-  　 　  話者を変更するときも"http://xxxx.xxxx.xxxx.xxxx/setting?speaker=3"　の3の数値を変えてください。<br>
+話者を変更するときも"http://xxxx.xxxx.xxxx.xxxx/setting?speaker=3"　の3の数値を変えてください。<br>
 
 　　　
 <br>
@@ -113,11 +112,11 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
 ・天気予報の情報はデフォルトでは関東（東京地方）になっています。<br>
 ・ その他の地域ではお手数ですがマイクロSDカード内にテキストファイルを用意して、都市ID(CityID)を入力してください(下記の例、140010は神奈川県のID）。<br>
     <br>
-    ファイル名： weather_city_id.txt<br>
+ファイル名： weather_city_id.txt<br>
 <br>
-    140010<br>
+140010<br>
      <br>
-     各都市・地方のIDは、　https://weather.tsukumijima.net/primary_area.xml 　でお調べください。<br>
+各都市・地方のIDは、　https://weather.tsukumijima.net/primary_area.xml 　でお調べください。<br>
      <br>
      <br>
 
@@ -141,7 +140,7 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
 ・AIｽﾀｯｸﾁｬﾝ２プラスの「ウエイクワード」機能は装備しておりません。<br>
 <br>
 ・時間や日付を応えてくれますが、タイマー機能は装備されておりません。<br>
-　「3分経ったら教えて」「あす7時に起こして」といったオーダーは「分かりました」と言っても信用しないでください。<br>
+「3分経ったら教えて」「あす7時に起こして」といったオーダーは「分かりました」と言っても信用しないでください。<br>
 　　
 <br>
 
