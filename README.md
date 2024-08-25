@@ -37,9 +37,9 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
 <br>
   　 　  また、"http://xxxx.xxxx.xxxx.xxxx/role_get"　にアクセスすると、現在設定しているロールを取得できます。<br>
 <br>
-　　　　　同様にボリュームを変更するときは"http://xxxx.xxxx.xxxx.xxxx/setting?volume=200"　の200の数値を0～255で調整してください。<br>
+  　 　  同様にボリュームを変更するときは"http://xxxx.xxxx.xxxx.xxxx/setting?volume=200"　の200の数値を0～255で調整してください。<br>
     <br>
-　　　　　話者を変更するときも"http://xxxx.xxxx.xxxx.xxxx/setting?speaker=3"　の3の数値を変えてください。<br>
+  　 　  話者を変更するときも"http://xxxx.xxxx.xxxx.xxxx/setting?speaker=3"　の3の数値を変えてください。<br>
 
 　　　
 <br>
@@ -110,14 +110,14 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
     <br>
 〇　天気予報の地域設定<br>
  <br>
-・天気予報の情報はデフォルトでは関東（東京地方）になっております。<br>
+・天気予報の情報はデフォルトでは関東（東京地方）になっています。<br>
 ・ その他の地域ではお手数ですがマイクロSDカード内にテキストファイルを用意して、都市ID(CityID)を入力してください(下記の例、140010は神奈川県のID）。<br>
     <br>
     ファイル名： weather_city_id.txt<br>
 <br>
     140010<br>
      <br>
-     各都市・地方のIDは、　https://weather.tsukumijima.net/primary_area.xml 　で調べてください。<br>
+     各都市・地方のIDは、　https://weather.tsukumijima.net/primary_area.xml 　でお調べください。<br>
      <br>
      <br>
 
@@ -137,7 +137,9 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
 〇　注意事項<br>
     <br>
 ・スマホアプリの「ｽﾀｯｸﾁｬﾝconnect」には対応しておりません。会話時はｽﾀｯｸﾁｬﾝと直接してください。音量、性格（ロール）設定等もPCにて行ってください。<br>
+<br>
 ・AIｽﾀｯｸﾁｬﾝ２プラスの「ウエイクワード」機能は装備しておりません。<br>
+<br>
 ・時間や日付を応えてくれますが、タイマー機能は装備されておりません。<br>
 　「3分経ったら教えて」「あす7時に起こして」といったオーダーは「分かりました」と言っても信用しないでください。<br>
 　　
