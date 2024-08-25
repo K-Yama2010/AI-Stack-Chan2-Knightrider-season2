@@ -1,6 +1,6 @@
 # AI-ｽﾀｯｸﾁｬﾝ２　ナイトライダー　シーズン２
 <br>
-robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Stack core2 とcore2AWSにて動作します。<br>
+robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Burnerで公開中です。M5Stack core2 とcore2AWSにて動作します。<br>
 <br>
 <br>
 〇　特長<br>
