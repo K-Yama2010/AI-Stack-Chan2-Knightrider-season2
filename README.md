@@ -1,6 +1,6 @@
 # AI-ｽﾀｯｸﾁｬﾝ２　ナイトライダー　シーズン２
 <br>
-robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、機能を追加or削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Burnerで公開中です。M5Stack core2 とcore2AWSにて動作します。<br>
+robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「AIｽﾀｯｸﾁｬﾝ２ Func-Call仕様」をベースに、機能を追加and削除した派生型のAIｽﾀｯｸﾁｬﾝ２です。M5Burnerで公開中です。M5Stack core2 とcore2AWSにて動作します。<br>
 <br>
 <br>
 〇　特長<br>
@@ -150,8 +150,7 @@ robo8080さん制作の「AIｽﾀｯｸﾁｬﾝ2」、motohさん制作の「A
 https://www.youtube.com/watch?v=WqNjBS-wgkQ　<br>
 <br>
 ・その１（ｽﾀｯｸﾁｬﾝが転んだ時、衝撃を受けた時の警告LED＆音声パターンをご確認できます。<br>
-動画内でスマホでの会話に触れていますが、現バージョンでは対応しておりません）<br>
-https://www.youtube.com/watch?v=lP6uA1JMHx4 <br>
+https://www.youtube.com/watch?v=TLRCn2d_p_c <br>
 <br>
 
 
